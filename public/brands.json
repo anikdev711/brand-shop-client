@@ -1,0 +1,243 @@
+[
+    {
+      "id": 1,
+      "brand_image": "https://i.imgur.com/kxCejNG.png",
+      "brand_name": "Toyota",
+      "products": [
+        {
+          "product_id": 101,
+          "product_image": "https://i.imgur.com/LZ2kQtx.jpg",
+          "product_name": "RAV4 Adventure",
+          "product_brand": "Toyota",
+          "product_type": "Vehicles",
+          "product_price": 40813,
+          "product_rating": 4,
+          "product_details": "SEQCD at the highest level will contribute to the production of attractive TOYOTA vehicles. Toyota Industries develops and manufactures the RAV4 for Toyota Motor Corporation using its strengths in safety, the environment, quality, cost, and delivery."
+        },
+        {
+          "product_id": 102,
+          "product_image": "https://i.imgur.com/HqSfwyE.jpg",
+          "product_name": "1VD-FTV",
+          "product_brand": "Toyota",
+          "product_type": "Engines",
+          "product_price": 5000,
+          "product_rating": 5,
+          "product_details": "Toyota Industries produces diesel and gasoline engines ranging in displacement from 2,000 to 4,500 cc. Our engines power vehicles such as the IMV (Innovative International Multi-purpose Vehicle) series, Land Cruisers, and the RAV4. The Land Cruiser had its first comprehensive facelift in 14 years in 2021. The new Land Cruiser, which was equipped with a V6 twin-turbo diesel engine manufactured mostly by Toyota Industries, also resulted in the reintroduction of the diesel version of the car in Japan."
+        },
+        {
+          "product_id": 103,
+          "product_image": "https://i.imgur.com/ISrN4BG.jpg",
+          "product_name": "Bipolar nickel-metal hydride batteries",
+          "product_brand": "Toyota",
+          "product_type": "Battery",
+          "product_price": 1500,
+          "product_rating": 4,
+          "product_details": "Toyota Motor Corporation collaborated on the development of bipolar nickel-metal hydride batteries for hybrid vehicles, with production for the Toyota Aqua beginning in May 2021 at the Kyowa Plant. Toyota Industries will expand its battery assortment to suit a variety of models in order to contribute to the expansion and dissemination of electric vehicles and work toward carbon neutrality. At the same time, it is aiming to stabilize supplies by establishing a production line at the Ishihama Plant, which started in fiscal 2022."
+        },
+        {
+          "product_id": 104,
+          "product_image": "https://i.imgur.com/a7urjfs.jpg",
+          "product_name": "ESB20",
+          "product_brand": "Toyota",
+          "product_type": "Compressors",
+          "product_price": 30,
+          "product_rating": 4,
+          "product_details": "The functionality required by electric compressors is growing increasingly diverse as the usage of electric vehicles grows. Heat management is also becoming increasingly vital for cooling not only the cabin but also on-board electronics like as batteries, which can become hot. As a result, the function of electric compressors is expanding, and production of these critical components of electric vehicles is increasing."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "brand_image": "https://i.imgur.com/jeIFwXL.png",
+      "brand_name": "BMW",
+      "products": [
+        {
+          "product_id": 201,
+          "product_image": "https://i.imgur.com/hmqz5UB.png",
+          "product_name": "New BMW i7 M70",
+          "product_brand": "BMW",
+          "product_type": "Vehicles",
+          "product_price": 105700,
+          "product_rating": 5,
+          "product_details": "BMW's electric limo now comes in a performance variant. The updated dual electric motors in the BMW i7 M70 provide 660hp and 1,100Nm of torque, and it accelerates from 0 to 60 mph in 3.7 seconds. That isn't as fast as a Tesla Model S Plaid, but it is faster than a Mercedes-AMG EQS 53."
+        },
+        {
+          "product_id": 202,
+          "product_image": "https://i.imgur.com/xoQ2LLU.png",
+          "product_name": "BMW S62 – V8",
+          "product_brand": "BMW",
+          "product_type": "Engines",
+          "product_price": 24423,
+          "product_rating": 5,
+          "product_details": "The S62 V8, a BMW V8 engine based on the M52 block, was used in the 1998-2003 E39 M5. The German V8 produced 394 horsepower and 369 pound-feet of torque through the M5's rear wheels. The BMW E39 M5 launched the sedan horsepower wars with its massive S62 V8, and it has since become one of the most dependable BMW performance vehicles ever produced. The BMW 4.9-liter V8 is a dependable engine, however some prefer the F10 M5's ticking time bomb. There's also an E39 M5 with 542,000 miles under the wing of the dependable S62 V8 engine. The only difficulties to be aware of are the infamous VANOS units that plagued the BMW line of the time."
+        },
+        {
+          "product_id": 203,
+          "product_image": "https://i.imgur.com/unAhpQn.png",
+          "product_name": "DieHard Gold",
+          "product_brand": "BMW",
+          "product_type": "Battery",
+          "product_price": 215,
+          "product_rating": 3,
+          "product_details": "DieHard Gold batteries are designed to provide maximum starting power in any environment. That means you can rest assured that your car will start even on the coldest or hottest of days. DieHard Gold automobile batteries meet or exceed your vehicle's manufacturer's power (CCA) and reserve capacity requirements, ensuring you always have the power you need for a rapid start. Stamped Grid technique is used in the design of DieHard Gold batteries."
+        },
+        {
+          "product_id": 204,
+          "product_image": "https://i.imgur.com/3HNe37m.jpg",
+          "product_name": "Denso AC Compressor",
+          "product_brand": "BMW",
+          "product_type": "Compressors",
+          "product_price": 439,
+          "product_rating": 4,
+          "product_details": "The air conditioner compressor lies at the heart of your BMW's climate control system. It works by compressing a gas refrigerant into a liquid and lowering the temperature of the refrigerant below freezing. This liquid refrigerant is then injected into the evaporator core inside the passenger compartment, where the blower motor cools the air before it exits the AC vents."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "brand_image": "https://i.imgur.com/5cvTi5k.png",
+      "brand_name": "Mercedes-Benz",
+      "products": [
+        {
+          "product_id": 301,
+          "product_image": "https://i.imgur.com/af89gon.png",
+          "product_name": "EQS Sedan",
+          "product_brand": "Mercedes-Benz",
+          "product_type": "Vehicles",
+          "product_price": 104400,
+          "product_rating": 5,
+          "product_details": "More intelligent. Even more considerate. Technology is designed to serve everyone onboard. It listens and recognizes who is speaking. It recognizes your face and fingerprint. Like no other EV, it adjusts to your routines, responds to your comfort, and anticipates your demands. Stream. To new heights. If you're a music fanatic, you'll love the almost limitless play from several online music services that are easily incorporated into your EQS. Simply say to start listening to your Apple Music, Spotify, TIDAL, and Amazon Music subscriptions."
+        },
+        {
+          "product_id": 302,
+          "product_image": "https://i.imgur.com/cA7HyjB.png",
+          "product_name": "DIESEL ENGINE",
+          "product_brand": "Mercedes-Benz",
+          "product_type": "Engines",
+          "product_price": 2336,
+          "product_rating": 5,
+          "product_details": "The Econic's modern 6-cylinder diesel engines have a base output of 200 kW (272 hp) at 2200 rpm and a maximum torque of 1200 Nm between 1200 and 1600 rpm, or a top performance of 260 kW (354 hp) at 2200 rpm and a maximum torque of 1400 Nm between 1200 and 1600 rpm."
+        },
+        {
+          "product_id": 303,
+          "product_image": "https://i.imgur.com/dUuwNOJ.png",
+          "product_name": "Mercedes-Benz Battery",
+          "product_brand": "Mercedes-Benz",
+          "product_type": "Battery",
+          "product_price": 13500,
+          "product_rating": 4,
+          "product_details": "Any good battery will start your engine. Is any other battery as finely designed to compliment this specific network of engine sensors, electrical harnesses, and signal receivers as a Genuine Mercedes-Benz battery? Unrivaled performance begins here."
+        },
+        {
+          "product_id": 304,
+          "product_image": "https://i.imgur.com/Pq9ynGa.png",
+          "product_name": "Ml 250 Cdi Ac Compressor",
+          "product_brand": "Mercedes-Benz",
+          "product_type": "Compressors",
+          "product_price": 222,
+          "product_rating": 5,
+          "product_details": "Mercedes Benz Ml 250 Cdi Ac Compressor - Mercedes ML350 AC Compressor AC compressor GL350 Mercedes Benz Ml 250 Cdi Ac Compressor Mercedes ML350 AC Compressor AC compressor GL350 Compressor"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "brand_image": "https://i.imgur.com/NlN7elw.png",
+      "brand_name": "Tesla",
+      "products": [
+        {
+          "product_id": 401,
+          "product_image": "https://i.imgur.com/CRs2zUl.png",
+          "product_name": "Model X",
+          "product_brand": "Tesla",
+          "product_type": "Vehicles",
+          "product_price": 68590,
+          "product_rating": 5,
+          "product_details": "Model X is designed from the bottom up to be an electric car, with a high-strength architecture and floor-mounted battery pack that provide excellent occupant protection and little rollover danger. Tesla's most recent active safety technologies, such as Automatic Emergency Braking, are standard on every Model X."
+        },
+        {
+          "product_id": 402,
+          "product_image": "https://i.imgur.com/nMHHs2y.png",
+          "product_name": "Model S",
+          "product_brand": "Tesla",
+          "product_type": "Engines",
+          "product_price": 4904,
+          "product_rating": 5,
+          "product_details": "The Tesla Model S drive train is made up of the small original Tesla Model S engine used in the regular or dual engine model S. The engine, inverter, and differential are all combined into one unit. We can also transport and assemble a restricted slip differential."
+        },
+        {
+          "product_id": 403,
+          "product_image": "https://i.imgur.com/dmlGCwU.png",
+          "product_name": "TESLA RECHARGEABLE+",
+          "product_brand": "Tesla",
+          "product_type": "Battery",
+          "product_price": 20,
+          "product_rating": 3,
+          "product_details": "TESLA RECHARGEABLE+ rechargeable batteries are high-quality NiMH batteries with an extended service life. The use of modern technology ensures a very low level of self-discharge and a long service life - at least 1000 charging cycles. All batteries are factory charged and ready to use as soon as they are unpacked. They are suited for all household equipment."
+        },
+        {
+          "product_id": 404,
+          "product_image": "https://i.imgur.com/qJe9er8.jpg",
+          "product_name": "OEM 1042442-00-J",
+          "product_brand": "Tesla",
+          "product_type": "Compressors",
+          "product_price": 389,
+          "product_rating": 4,
+          "product_details": "OEM 1042442-00-J Tesla Model X air conditioning AC compressor 2016-2020 This item may be subject to import duties and taxes at the time of delivery. We will do everything possible to resolve the situation! Under no circumstances are we liable for any labor, programming, or other charges."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "brand_image": "https://i.imgur.com/WMXWdTU.png",
+      "brand_name": "Honda",
+      "products": [
+        {
+          "product_id": 501,
+          "product_image": "https://i.imgur.com/byoACQu.png",
+          "product_name": "JAZZ / FIT",
+          "product_brand": "Honda",
+          "product_type": "Vehicles",
+          "product_price": 19504,
+          "product_rating": 3,
+          "product_details": "Most automakers struggled to meet the Euro 6 pollution criteria, but Honda was prepared and developed the 1.5-liter engine since its early development phases. It was also one of the first automakers to adopt autonomous braking and lane-keeping assist technologies. However, the Japanese automaker did not simply add the Euro6 necessary equipment to the vehicle and call it a day. It also brought about additional improvements."
+        },
+        {
+          "product_id": 502,
+          "product_image": "https://i.imgur.com/wtECUkm.png",
+          "product_name": "Honda E0 engine",
+          "product_brand": "Honda",
+          "product_type": "Engines",
+          "product_price": 997,
+          "product_rating": 3,
+          "product_details": "The Honda E0 series is a three-cylinder gasoline engine with a displacement of 656 cc that was developed and built by Honda. The engine is designed for use in kei cars. The E05A and E07A engines were partially replaced by the Honda P engine, however the E07Z engine was still used in the Acty truck as of 2020."
+        },
+        {
+          "product_id": 503,
+          "product_image": "https://i.imgur.com/ENYsYXn.jpg",
+          "product_name": "Honda 31500-SR1-100M",
+          "product_brand": "Honda",
+          "product_type": "Battery",
+          "product_price": 104,
+          "product_rating": 3,
+          "product_details": "31500-SR1-100M looks to be a Honda part number or reference code. If you own a Honda and need information regarding a specific part or accessory, I recommend consulting your owner's manual or calling a Honda dealership or authorized parts distributor. They should be able to give you specific details on the part with that code and its compatibility with your car."
+        },
+        {
+          "product_id": 504,
+          "product_image": "https://i.imgur.com/bD7IdX4.png",
+          "product_name": "SIP ISHP5.5/50",
+          "product_brand": "Honda",
+          "product_type": "Compressors",
+          "product_price": 1538,
+          "product_rating": 4,
+          "product_details": "This air compressor has a maximum pressure of 10 Bar (150 psi), allowing for diverse use. From 4 meters away, it functions quietly at 76 dB(A). It provides dependable and continuous compressed air supply thanks to its huge 50-liter air receiver. It is efficiently powered by the Honda 5.5hp petrol engine at 1400rpm. It combines performance and peace of mind, with a 2-year standard guarantee and a spectacular 10-year receiver warranty."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "brand_image": "https://i.imgur.com/bo7x3t5.png",
+      "brand_name": "Ford",
+      "products": []
+    }
+  ]
