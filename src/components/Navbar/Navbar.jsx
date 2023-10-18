@@ -29,7 +29,7 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <div className="navbar-center md:navbar-center lg:navbar-start flex flex-col md:flex-col lg:flex-row  justify-center items-center">
+                    <div className="navbar-center md:navbar-start lg:navbar-start flex flex-col md:flex-row lg:flex-row  justify-center items-center">
                         <img src="/logo.png" alt=""/>
                         <a className="btn btn-ghost normal-case text-xl">Auto<span className="text-[#EF1D26] font-bold">Motorz</span>Wizdom</a>
                     </div>
