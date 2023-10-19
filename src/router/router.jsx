@@ -19,7 +19,7 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                loader: ()=>fetch('/brands.json')
+                loader: () => fetch('/brands.json')
             },
             {
                 path: "/addproduct",
@@ -27,7 +27,8 @@ const router = createBrowserRouter([
             },
             {
                 path: "/mycart",
-                element: <MyCart></MyCart>
+                element: <MyCart></MyCart>,
+                loader: () => fetch('http://localhost:5000/products')
             },
             {
                 path: "/login",
@@ -40,12 +41,12 @@ const router = createBrowserRouter([
             {
                 path: "/branddetails/:id",
                 element: <BrandDetails></BrandDetails>,
-                loader: ()=>fetch('/brands.json')
+                loader: () => fetch('/brands.json')
             },
             {
                 path: "/productdetails/:id",
                 element: <ProductDetails></ProductDetails>,
-                loader: ()=>fetch('/brands.json')
+                loader: () => fetch('/brands.json')
             }
         ]
     }
