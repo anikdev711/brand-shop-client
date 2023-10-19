@@ -1,6 +1,15 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Navbar = () => {
+    const { user, userLogOut } = useContext(AuthContext);
+
+    const handleUserLogOut = () => {
+        userLogOut()
+            .then()
+            .catch()
+    }
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/addproduct">Add Product</NavLink></li>
@@ -30,7 +39,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-center md:navbar-start lg:navbar-start flex flex-col md:flex-row lg:flex-row  justify-center items-center">
-                        <img src="/logo.png" alt=""/>
+                        <img src="/logo.png" alt="" />
                         <a className="btn btn-ghost normal-case text-xl">Auto<span className="text-[#EF1D26] font-bold">Motorz</span>Wizdom</a>
                     </div>
                 </div>
@@ -40,7 +49,22 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Login</a>
+                    {
+                        user ? <div className="flex flex-col md:flex-col lg:flex-row gap-3 items-center">
+                            <img src={user.photoURL ? user.photoURL : 'N/A'} alt="" />
+                            <p>{user.displayName ? user.displayName : 'N/A'}</p>
+                            <button
+                                onClick={handleUserLogOut}
+                                className="btn btn-success font-bold">
+                                Logout
+                            </button>
+                        </div>
+                        : <Link to="/login">
+                            <button className="btn btn-info font-bold">
+                                Login
+                            </button>
+                        </Link>
+                    }
                 </div>
             </div>
         </div>
