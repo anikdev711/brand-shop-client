@@ -8,6 +8,7 @@ import { updateProfile } from "firebase/auth";
 const Register = () => {
     const { userSignUp } = useContext(AuthContext);
     const [userRegisterError, setUserRegisterError] = useState('');
+    
 
     const handleUserRegister = (e) => {
         e.preventDefault();
