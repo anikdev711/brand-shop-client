@@ -19,7 +19,7 @@ const BrandDetails = () => {
         const findBrandDetails = loadedBrand.find(item => item.id === intId);
         // setBrandDetails(findBrandDetails);
         console.log(findBrandDetails);
-        fetch('http://localhost:5000/allproducts')
+        fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts')
             .then(res => res.json())
             .then(data => {
                 console.log(data);

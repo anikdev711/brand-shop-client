@@ -23,7 +23,7 @@ const AddProduct = () => {
         }
         console.log(newBrandProduct);
 
-        fetch('http://localhost:5000/allproducts', {
+        fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -125,7 +125,7 @@ const AddProduct = () => {
                             </div>
 
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Add Product</button>
+                                <button className="btn btn-primary text-white font-bold">Add Product</button>
                             </div>
                         </form>
                     </div>

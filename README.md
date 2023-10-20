@@ -1,6 +1,6 @@
 Website name: AutoMotorz Wizdom
 
-Website category: Automobile [category-2]
+Website category: Automotive [category-2]
 
 Website live link (firebase): 
 

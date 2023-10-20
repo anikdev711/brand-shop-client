@@ -38,7 +38,7 @@ const Login = () => {
                     email,
                     lastLoggedAtTime: result.user.metadata.lastSignInTime
                 }
-                fetch('http://localhost:5000/users', {
+                fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/users', {
                     method: "PATCH",
                     headers: {
                         "content-type": "application/json"

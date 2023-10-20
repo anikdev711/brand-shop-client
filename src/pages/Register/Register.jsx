@@ -71,7 +71,7 @@ const Register = () => {
                         email,
                         createdAt: result.user.metadata.creationTime 
                     }
-                    fetch('http://localhost:5000/users', {
+                    fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/users', {
                         method: "POST",
                         headers: {
                             "content-type": "application/json"

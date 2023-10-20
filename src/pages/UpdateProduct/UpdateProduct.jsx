@@ -29,7 +29,7 @@ const UpdateProduct = () => {
 
         console.log(updateProduct);
 
-        fetch(`http://localhost:5000/allproducts/${_id}`, {
+        fetch(`https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts/${_id}`, {
             method: "PUT",
             headers: {
                 "content-type": "application/json"
@@ -140,7 +140,7 @@ const UpdateProduct = () => {
                             </div>
 
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Update Product</button>
+                                <button className="btn btn-primary text-white font-bold">Update Product</button>
                             </div>
                         </form>
                     </div>

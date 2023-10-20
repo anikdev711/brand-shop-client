@@ -20,7 +20,7 @@ const LoadedProductDbCard = ({ loadedProductDb, loadedProductsDb, setLoadedProdu
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/products/${_id}`, {
+                fetch(`https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/products/${_id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())
