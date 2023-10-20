@@ -1,12 +1,27 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import BrandCard from "./BrandCard";
+import { useState } from "react";
+import DarkMode from "../../components/DarkMode/DarkMode";
+
+
 
 const Home = () => {
     const brands = useLoaderData();
-    console.log(brands);
+
+    //dark mode implementation
+    const [isHomeDarkMode, setIsHomeDarkMode] = useState(false);
+    const toggleDarkLightMode = () => {
+        setIsHomeDarkMode(!isHomeDarkMode)
+    }
+   
+
     return (
-        <div>
+        <div
+            className={`${isHomeDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
+
+            <DarkMode isDark={isHomeDarkMode} toggleDark={toggleDarkLightMode}></DarkMode>
+
             <Banner></Banner>
             <div className="mt-20 bg-[#EFF3FA]">
                 <h4 className="text-center text-[#EF1D26] font-bold text-xl pt-8">__Top Brands</h4>
@@ -31,7 +46,7 @@ const Home = () => {
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto gap-4">
                                 {/* card #1 */}
-                                <div className="card bg-base-100 shadow-xl">
+                                <div className="card bg-amber-200 shadow-xl">
                                     <div className="card-body">
                                         <h2 className="card-title text-4xl font-extrabold">01</h2>
                                         <p className="text-3xl font-bold">Best Quality Brands</p>
@@ -39,7 +54,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 {/* card #2  */}
-                                <div className="card bg-base-100 shadow-xl">
+                                <div className="card bg-amber-200 shadow-xl">
                                     <div className="card-body">
                                         <h2 className="card-title text-4xl font-extrabold">02</h2>
                                         <p className="text-3xl font-bold">Reasonable Price</p>
@@ -47,7 +62,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 {/* card #3  */}
-                                <div className="card bg-base-100 shadow-xl">
+                                <div className="card bg-amber-200 shadow-xl">
                                     <div className="card-body">
                                         <h2 className="card-title text-4xl font-extrabold">03</h2>
                                         <p className="text-3xl font-bold">Service & Maintenance</p>
@@ -55,7 +70,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 {/* card #4  */}
-                                <div className="card bg-base-100 shadow-xl">
+                                <div className="card bg-amber-200 shadow-xl">
                                     <div className="card-body">
                                         <h2 className="card-title text-4xl font-extrabold">04</h2>
                                         <p className="text-3xl font-bold">Easy Finance</p>
