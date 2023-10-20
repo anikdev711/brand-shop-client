@@ -87,6 +87,7 @@ const Home = () => {
                 </div>
             </div>
             {/* download app section ends */}
+
         </div>
     );
 };
