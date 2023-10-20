@@ -5,9 +5,10 @@ import ProductCards from "./ProductCards";
 
 // import ProductCards from "./ProductCards";
 
-const BrandDetailsCard = ({ brandDetails }) => {
-    const { products, ad_first, ad_second, ad_third } = brandDetails;
+const BrandDetailsCard = ({ productsData }) => {
+    // const { products, ad_first, ad_second, ad_third } = brandDetails;
     // console.log(products);
+
 
 
 
@@ -18,13 +19,16 @@ const BrandDetailsCard = ({ brandDetails }) => {
             <div className="max-w-6xl mx-auto">
                 <div className="carousel w-full">
                     <div id="item1" className="carousel-item w-full">
-                        <img src={ad_first} className="w-full" />
+                        {/* <img src={ad_first} className="w-full" /> */}
+                        <img src="https://i.imgur.com/r73GBqu.jpg" className="w-full" />
                     </div>
                     <div id="item2" className="carousel-item w-full">
-                        <img src={ad_second} className="w-full" />
+                        {/* <img src={ad_second} className="w-full" /> */}
+                        <img src="https://i.imgur.com/oF46sbd.jpg" className="w-full" />
                     </div>
                     <div id="item3" className="carousel-item w-full">
-                        <img src={ad_third} className="w-full" />
+                        {/* <img src={ad_third} className="w-full" /> */}
+                        <img src="https://i.imgur.com/ozIc8Gg.jpg" className="w-full" />
                     </div>
                     
                 </div>
@@ -40,7 +44,8 @@ const BrandDetailsCard = ({ brandDetails }) => {
 
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 max-w-6xl mx-auto mt-20 mb-20 p-5">
                 {
-                    products?.map(product => <ProductCards key={product.id} product={product}></ProductCards>)
+                    // products?.map(product => <ProductCards key={product.id} product={product}></ProductCards>)
+                    productsData?.map(product => <ProductCards key={product._id} product={product}></ProductCards>)
                 }
             </div>
         </div>

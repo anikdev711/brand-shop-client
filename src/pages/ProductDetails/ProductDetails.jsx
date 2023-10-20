@@ -4,31 +4,34 @@ import { useLoaderData, useParams } from "react-router-dom";
 import ProductDetailsCard from "./ProductDetailsCard";
 
 const ProductDetails = () => {
+    const loadedProduct = useLoaderData();
+    // const {_id} = loadedProduct;
     const [productDetails, setProductDetails] = useState({});
     const {id} = useParams();
-    const idInt = parseInt(id);
+    console.log(id);
+    // const idInt = parseInt(_id);
     // console.log(idInt);
-    const loadedProduct = useLoaderData();
+    console.log(loadedProduct);
     // console.log(loadedProduct);
-    const loadedProductsOfArr = [];
-    loadedProduct.forEach(obj=>{
-        const {products} = obj;
-        products.forEach(product=>{
-            loadedProductsOfArr.push(product)
-        })
+    // const loadedProductsOfArr = [];
+    // loadedProduct.forEach(obj=>{
+    //     const {products} = obj;
+    //     products.forEach(product=>{
+    //         loadedProductsOfArr.push(product)
+    //     })
         // const selectedProducts = obj.products;
         // console.log(selectedProducts);
         // const selectedProductsObj 
-    })
+    // })
     // console.log(loadedProductsOfArr);
 
     useEffect(()=>{
-        const findProducts = loadedProductsOfArr.find(item=>item.product_id === idInt);
+        const findProducts = loadedProduct.find(item=>item._id === id);
         // console.log(findProducts);
         setProductDetails(findProducts);
         // setProductDetails(findProducts)
 
-    },[idInt, loadedProductsOfArr])
+    },[])
     // console.log(productDetails);
     // console.log(productDetails);
 

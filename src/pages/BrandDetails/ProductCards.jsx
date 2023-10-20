@@ -4,7 +4,7 @@ import ReactStars from "react-rating-stars-component";
 import { Link } from "react-router-dom";
 
 const ProductCards = ({ product }) => {
-    const { product_id, product_image, product_name, product_brand, product_type, product_price, product_rating } = product;
+    const { _id, product_image, product_name, product_brand, product_type, product_price, product_rating } = product;
     // console.log(product);
 
     return (
@@ -34,7 +34,7 @@ const ProductCards = ({ product }) => {
                     <div className="card-actions justify-end">
                         {/* <div className="badge badge-outline">Fashion</div> */}
                         {/* <div className="badge badge-outline">Products</div> */}
-                        <Link to={`/productdetails/${product_id}`}>
+                        <Link to={`/productdetails/${_id}`}>
                             <button className="btn-secondary text-white font-bold p-2 rounded-lg">Details</button>
                         </Link>
                         <button className="btn-accent text-white font-bold rounded-lg p-2">Update</button>
