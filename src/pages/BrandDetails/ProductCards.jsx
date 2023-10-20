@@ -37,7 +37,9 @@ const ProductCards = ({ product }) => {
                         <Link to={`/productdetails/${_id}`}>
                             <button className="btn-secondary text-white font-bold p-2 rounded-lg">Details</button>
                         </Link>
-                        <button className="btn-accent text-white font-bold rounded-lg p-2">Update</button>
+                        <Link to={`/updateproduct/${_id}`}>
+                            <button className="btn-accent text-white font-bold rounded-lg p-2">Update</button>
+                        </Link>
                     </div>
                 </div>
             </div>
