@@ -45,7 +45,10 @@ const BrandDetailsCard = ({ productsData }) => {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 max-w-6xl mx-auto mt-20 mb-20 p-5">
                 {
                     // products?.map(product => <ProductCards key={product.id} product={product}></ProductCards>)
+                    productsData.length>0 ?
                     productsData?.map(product => <ProductCards key={product._id} product={product}></ProductCards>)
+                    :
+                    <p className="col-span-2 text-center font-bold text-xl">Products will coming soon</p>
                 }
             </div>
         </div>

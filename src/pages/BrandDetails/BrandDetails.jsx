@@ -6,7 +6,7 @@ import BrandDetailsCard from "./BrandDetailsCard";
 
 const BrandDetails = () => {
     // const [brandDetails, setBrandDetails] = useState({});
-    const [productsData, setProductsData] =useState([]);
+    const [productsData, setProductsData] = useState([]);
     const { id } = useParams();
     const intId = parseInt(id);
     // console.log(brand_name);
@@ -20,13 +20,19 @@ const BrandDetails = () => {
         // setBrandDetails(findBrandDetails);
         console.log(findBrandDetails);
         fetch('http://localhost:5000/allproducts')
-        .then(res=>res.json())
-        .then(data=>{
-            console.log(data);
-            const findProducts = data.filter(item=>item.product_brand === findBrandDetails.brand_name)
-            // console.log(findProducts);
-            setProductsData(findProducts)
-        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                const findProducts = data.filter(item => item.product_brand === findBrandDetails.brand_name)
+                // console.log(findProducts);
+
+
+                setProductsData(findProducts)
+
+
+            })
+            
+            
 
     }, [intId, loadedBrand])
 
@@ -37,14 +43,14 @@ const BrandDetails = () => {
     //     fetch('http://localhost:5000/allproducts')
     //     .then(res=>res.json())
     //     .then(data=>{
-            // console.log(data);
-            // setProductsData(data)
-            // const matchedProductData = loadedBrand.map(item1=>{
-            //     const matchedProductItem = data.find(item2=>item2.product_brand === item1.brand_name)
-                // console.log(matchedProductItem);
-                // const matchedProductsData = data.find(item=>item.product_brand === brandDetails.brand_name)
-                // console.log(matchedProductsData);
-             
+    // console.log(data);
+    // setProductsData(data)
+    // const matchedProductData = loadedBrand.map(item1=>{
+    //     const matchedProductItem = data.find(item2=>item2.product_brand === item1.brand_name)
+    // console.log(matchedProductItem);
+    // const matchedProductsData = data.find(item=>item.product_brand === brandDetails.brand_name)
+    // console.log(matchedProductsData);
+
     //         })
     //     });
     // },[])

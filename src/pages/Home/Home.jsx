@@ -95,7 +95,10 @@ const Home = () => {
                         <p>Our app is free. If you use this app, it will update you about our latest products and upcoming latest brands. It has made our finance system easy and cool. So, why late? Download it now.</p>
                         <div className="card-actions justify-end">
                             <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1">
-                                <button className="btn btn-warning">Google</button>
+                                <button className="btn btn-warning flex flex-col font-extrabold">
+                                    <span>Get From</span>
+                                    <span>Google Play</span>
+                                </button>
                             </a>
                         </div>
                     </div>
