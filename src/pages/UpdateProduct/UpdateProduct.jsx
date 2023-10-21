@@ -29,7 +29,7 @@ const UpdateProduct = () => {
 
         console.log(updateProduct);
 
-        fetch(`https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts/${_id}`, {
+        fetch(`https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/allproducts/${_id}`, {
             method: "PUT",
             headers: {
                 "content-type": "application/json"

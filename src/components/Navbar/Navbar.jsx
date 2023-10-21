@@ -51,8 +51,8 @@ const Navbar = () => {
                 <div className="navbar-end">
                     {
                         user ? <div className="flex flex-col md:flex-col lg:flex-row gap-3 items-center">
-                            <img src={user.photoURL ? user.photoURL : 'N/A'} alt="" />
-                            <p>{user.displayName ? user.displayName : 'N/A'}</p>
+                            <img src={user.photoURL ? user.photoURL : 'Please Reload'} alt="" />
+                            <p>{user.displayName ? user.displayName : 'Please Reload'}</p>
                             <button
                                 onClick={handleUserLogOut}
                                 className="btn btn-success font-bold">

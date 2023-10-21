@@ -9,9 +9,6 @@ const BrandDetailsCard = ({ productsData }) => {
     // const { products, ad_first, ad_second, ad_third } = brandDetails;
     // console.log(products);
 
-
-
-
     return (
         <div>
             <h3 className="text-[#EF1D26] font-bold text-xl text-center mt-10 mb-5">__Best Choice</h3>

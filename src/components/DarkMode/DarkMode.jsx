@@ -1,10 +1,10 @@
 
-const DarkMode = ({ isDark, toggleDark }) => {
+const DarkMode = ({ isDark, toggleBetweenDarkLight }) => {
     
     return (
         <div className="text-center font-bold">
             <button
-                onClick={toggleDark}
+                onClick={toggleBetweenDarkLight}
                 className={
                     `${isDark ? 'bg-black text-white'
                         :

@@ -38,7 +38,7 @@ const Login = () => {
                     email,
                     lastLoggedAtTime: result.user.metadata.lastSignInTime
                 }
-                fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/users', {
+                fetch('https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/users', {
                     method: "PATCH",
                     headers: {
                         "content-type": "application/json"
@@ -58,18 +58,12 @@ const Login = () => {
 
     }
 
-
-
-
     return (
         <div>
             <h1 className="text-center text-3xl font-extrabold mt-16">Login Now</h1>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    {/* <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    </div> */}
+                    
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form
                             onSubmit={handleUserEmailPasswordLogIn}

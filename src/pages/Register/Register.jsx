@@ -42,36 +42,18 @@ const Register = () => {
                     })
                         .then(() => {
                             console.log('profile updated');
-
-                            // const user = {
-                            //     email,
-                            //     createdAt: result.user.metadata.creationTime
-                            // }
-                            // fetch('http://localhost:5000/users', {
-                            //     method: "POST",
-                            //     headers: {
-                            //         "content-type": "application/json"
-                            //     },
-                            //     body: JSON.stringify(user)
-                            // })
-                            //     .then(res => res.json())
-                            //     .then(data => {
-                            //         console.log(data);
-                            //     })
-
-
                         })
                         .catch((error) => {
                             console.log(error.message);
                         })
-                    window.location.reload();
+                    // window.location.reload();
 
                     // database connection
                     const user = { 
                         email,
                         createdAt: result.user.metadata.creationTime 
                     }
-                    fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/users', {
+                    fetch('https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/users', {
                         method: "POST",
                         headers: {
                             "content-type": "application/json"
@@ -81,6 +63,9 @@ const Register = () => {
                         .then(res => res.json())
                         .then(data => {
                             console.log(data);
+                            if(data.insertedId){
+                                console.log('user added to database');
+                            }
                         })
                 })
                 .catch(error => {

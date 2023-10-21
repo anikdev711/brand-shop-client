@@ -20,7 +20,7 @@ const Home = () => {
         <div
             className={`${isHomeDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
 
-            <DarkMode isDark={isHomeDarkMode} toggleDark={toggleDarkLightMode}></DarkMode>
+            <DarkMode isDark={isHomeDarkMode} toggleBetweenDarkLight={toggleDarkLightMode}></DarkMode>
 
             <Banner></Banner>
             <div className="mt-20 bg-[#EFF3FA]">

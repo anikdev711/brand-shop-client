@@ -16,7 +16,7 @@ const ProductDetailsCard = ({ productDetails }) => {
         }
         console.log(addToCartProduct);
 
-        fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/products', {
+        fetch('https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/products', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

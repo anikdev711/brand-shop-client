@@ -2,11 +2,14 @@ Website name: AutoMotorz Wizdom
 
 Website category: Automotive [category-2]
 
-Website live link (firebase): 
+Website live link (firebase): https://brand-shop-auth-8d0ca.web.app/
 
-Website alternative live link (netlify):
 
-Website server side link (if requires):
+Website alternative live link (netlify): https://6533b3c2062e1b163e11a035--capable-monstera-11b233.netlify.app/
+
+
+Website server side link (if requires): https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/
+
 
 Website features: 
 

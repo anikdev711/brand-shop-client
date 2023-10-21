@@ -23,7 +23,7 @@ const AddProduct = () => {
         }
         console.log(newBrandProduct);
 
-        fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts', {
+        fetch('https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/allproducts', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

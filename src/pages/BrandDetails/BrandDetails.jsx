@@ -19,42 +19,20 @@ const BrandDetails = () => {
         const findBrandDetails = loadedBrand.find(item => item.id === intId);
         // setBrandDetails(findBrandDetails);
         console.log(findBrandDetails);
-        fetch('https://brand-shop-server-1x6ohhjmz-anikdev100-gmailcom.vercel.app/allproducts')
+        fetch('https://brand-shop-server-q262561p7-anikdev100-gmailcom.vercel.app/allproducts')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
                 const findProducts = data.filter(item => item.product_brand === findBrandDetails.brand_name)
                 // console.log(findProducts);
 
-
                 setProductsData(findProducts)
 
-
             })
-            
-            
 
     }, [intId, loadedBrand])
 
-    console.log(productsData);
-
-
-    // useEffect(()=>{
-    //     fetch('http://localhost:5000/allproducts')
-    //     .then(res=>res.json())
-    //     .then(data=>{
-    // console.log(data);
-    // setProductsData(data)
-    // const matchedProductData = loadedBrand.map(item1=>{
-    //     const matchedProductItem = data.find(item2=>item2.product_brand === item1.brand_name)
-    // console.log(matchedProductItem);
-    // const matchedProductsData = data.find(item=>item.product_brand === brandDetails.brand_name)
-    // console.log(matchedProductsData);
-
-    //         })
-    //     });
-    // },[])
-
+    // console.log(productsData);
 
     return (
         <div>
